@@ -1,15 +1,16 @@
 $teer: #29A3CC;
+$teer2: #CC6633;
 $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 $btnPrimaryBackground: $teer;
-/*$textColor: #ECF7FA;*/
+$textColor: #ECF7FA;
 $navbarText:                      #fff; //white
-$navbarLinkColor:                 #fff;
+$navbarLinkColor:                 #D2D2D5;
 $navbarLinkColorActive:           #fff;
 
-$navbarBackgroundHighlight:       $teer;
+$navbarBackgroundHighlight:       $teer2;
 
-$navbarLinkColorHover:            #fff; 
+$navbarLinkColorHover:            black; 
 $navbarLinkBackgroundActive:      #006400; //darkgreen
 
 @import 'bootstrap';
@@ -20,19 +21,34 @@ body {
 .hero-unit{
     background-color: #CC6633;
     color: #ECF7FA;
+    background-image: url(bg1_classalyze.jpg);
+    padding-left: 100px;
  }
+ .carousel-inner {
+    width: auto;
+    h1 {
+    color: $teer;
+  }
 
+ }
+ .span8 {
+  padding-top: 8px;
+ }
+ .name {
+  color: black
+ }
 /* set the background-color to red */
 .navbar-inner
 {
-    background-color: $teer;
+    background-color: $teer2;
     /* remove the gradient */
     background-image: none;
     font-size: large;
+    color: white;
 }
 
 .btn-primary {
-	background-color: $teer; 
+	background-color: $teer;
 }
 @import 'bootstrap-responsive';
 .footer {
