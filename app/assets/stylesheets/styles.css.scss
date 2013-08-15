@@ -1,0 +1,44 @@
+$teer: #29A3CC;
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+$btnPrimaryBackground: $teer;
+/*$textColor: #ECF7FA;*/
+$navbarText:                      #fff; //white
+$navbarLinkColor:                 #fff;
+$navbarLinkColorActive:           #fff;
+
+$navbarBackgroundHighlight:       $teer;
+
+$navbarLinkColorHover:            #fff; 
+$navbarLinkBackgroundActive:      #006400; //darkgreen
+
+@import 'bootstrap';
+body {
+	padding-top: 60px;
+}
+
+.hero-unit{
+    background-color: #CC6633;
+    color: #ECF7FA;
+ }
+
+/* set the background-color to red */
+.navbar-inner
+{
+    background-color: $teer;
+    /* remove the gradient */
+    background-image: none;
+    font-size: large;
+}
+
+.btn-primary {
+	background-color: $teer; 
+}
+@import 'bootstrap-responsive';
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a{
+		color: $red
+	}
+}
