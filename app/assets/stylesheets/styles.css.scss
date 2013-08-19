@@ -1,9 +1,9 @@
 $teer: #29A3CC;
 $teer2: #CC6633;
-$baseFontFamily: Oxygen;
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
+/*$baseFontFamily: Oxygen;*/
+/*@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
 $btnPrimaryBackground: $teer;
-$textColor: #ECF7FA;
+/*$textColor: #ECF7FA;*/
 $navbarText:                      #fff; //white
 $navbarLinkColor:                 #D2D2D5;
 $navbarLinkColorActive:           #fff;
@@ -28,9 +28,14 @@ body {
     width: auto;
     h1 {
     color: $teer;
-  }
+    }
+    color: white
 
  }
+/* .span4offset4 {
+  position:absolute; 
+  bottom:0;
+ }*/
  .span8 {
   padding-top: 8px;
  }
