@@ -1,5 +1,8 @@
 class Card < ActiveRecord::Base
   attr_accessible :description
 
-  validate :description, presence: true
+  validates :description, presence: true
+
+  belongs_to :user
+
 end
